@@ -15,9 +15,3 @@ def findClosestValue(tree, target, min):
                 min = tree.right.value
             return findClosestValue(tree.right, target, min)
     return min
-
-class BST:
-    def __init__(self, value):
-        self.value = value
-        self.left = None
-        self.right = None
