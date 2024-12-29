@@ -1,4 +1,5 @@
 def optimalFreelancing(jobs):
+    # For the way to do without sorting, think about job deletion
     joblist = [None for _ in range(7)]
     jobs = sorted(jobs, key=lambda x: -x["payment"])
     profit, i, n = 0, 0 , len(jobs)
