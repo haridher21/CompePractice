@@ -1,6 +1,7 @@
 def commonCharacters(strings): # O(n*m) time, O(c) space
     # n - num strings, m - length of longest string, c - number of unique characters
     # USE SET()
+    # There's an O(m) space result too. HINT: We just need to check unique chars of smallest string
     cd, common, string_count = {}, [], len(strings)
     for string in strings:
         d = {}
