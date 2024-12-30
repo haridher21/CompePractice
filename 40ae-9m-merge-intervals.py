@@ -7,14 +7,9 @@ def mergeOverlappingIntervals(intervals): # O(NlogN) T O(N) S
 
     for i in range(1, len(intervals)):
         j = len(final) - 1
-        if intervals[i][1] < final[j][0]:
-            final.append(intervals[i])
-            continue
         if intervals[i][0] > final[j][1]:
             final.append(intervals[i])
             continue
-        if intervals[i][0] < final[j][0]:
-            final[j][0] = intervals[i][0]
         if intervals[i][1] > final[j][1]:
             final[j][1] = intervals[i][1]
     return final
