@@ -1,5 +1,5 @@
 def longestPeak(array): # O(N)
-    r, d, peak = 0, 0, 0
+    r, d, peak = 0, 0, 0 # r is rise, d is descent
     for i in range(len(array) - 1):
         if array[i] < array[i + 1]:
             if d > 0:
