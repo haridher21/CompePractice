@@ -1,5 +1,7 @@
 # Given a sorted array, most optimal is O(N) TS, which I did not get. This is my suboptimal solution, which could have been cleaner
 
+# Note the logn part comes from using the insert method.
+
 def minHeightBst(array): # O(nlogn), O(n)
     # Their this solution is better though, since it uses a single mid checker
     # rather than one for left and right
