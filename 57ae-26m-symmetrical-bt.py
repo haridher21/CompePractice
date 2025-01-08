@@ -1,4 +1,4 @@
-# Can be written significantly shorter
+# Can be written significantly shorter, use tree instead of left and right
 def symmetricalTree(tree): # O(N) T O(H) S (space is just stack height) Optimal
     return st(tree, tree)
 
