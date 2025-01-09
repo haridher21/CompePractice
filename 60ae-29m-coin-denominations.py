@@ -1,5 +1,5 @@
 def numberOfWaysToMakeChange(n, denoms): # O(ND) T O(N) S if N > logD else O(DlogD) TS
-    # But can be done without n == 0 and j == denom condition, but yeah its optimal
+    # But can be done without n == 0 and j == denom condition, AND WITHOUT SORTING DENOMS but yeah its optimal
     d = len(denoms)
     if n == 0 and d > 0:
         return 1
