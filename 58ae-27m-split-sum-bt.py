@@ -6,6 +6,7 @@ class Split:
 
 
 def splitBinaryTree(tree): # O(N) T O(H) S Optimal. But not anywhere as elegant as theirs
+    # To make it more elegant, realise why root special case is not needed, and also why we don't really need the subtree sum once its matched
     if not tree:
         return 0
     sum = getSum(tree, 0)
