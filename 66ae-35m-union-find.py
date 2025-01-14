@@ -1,4 +1,5 @@
-# They've done some extra stuff, but I think that isn't necessary to have, hence mine should be more optimal I believe
+# They've done some extra stuff, but it isn't necessary to clear their testcases, hence more optimal
+# BUT, frankly speaking, in longer testcases, their union is more optimal, since its switches the values of the lower set to join the bigger. Mine is basically whomever is called first, hence suboptimal
 class UnionFind:
     def __init__(self):
         self.set = {}
