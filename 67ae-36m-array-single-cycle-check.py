@@ -4,7 +4,7 @@ def hasSingleCycle(array): # O(N) T O(1) S
     while count < n and loc != 0:
         count += 1
         loc = (loc + array[loc]) % n
-    return True if loc == 0 and count == n else False
+    return loc == 0 and count == n
 
 """
 def hasSingleCycle(array): # O(N) TS
