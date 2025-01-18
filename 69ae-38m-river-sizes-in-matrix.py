@@ -1,4 +1,4 @@
-def riverSizes(matrix): # O(WH) TS But recursive, can be iterative too
+def riverSizes(matrix): # O(WH) TS But recursive, can be iterative tooo
     if not (len(matrix) > 0 and len(matrix[0]) > 0):
         return []
     nr, nc = len(matrix), len(matrix[0])
