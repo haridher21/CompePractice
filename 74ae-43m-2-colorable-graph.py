@@ -1,5 +1,7 @@
 def twoColorable(edges):
-    # Feels optimal
+    # Feels optimal. O(V) S [stack dictionary and visited list of vertices]
+    # O(V + E) cause not neccesarily go into the loop, could be roaming the 
+    # outer loops instead of the inner smaller loop
     n = len(edges)
     visited = [False for _ in range(n)]
     stack = {}
