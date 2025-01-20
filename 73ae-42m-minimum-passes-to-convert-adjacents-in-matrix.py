@@ -1,5 +1,5 @@
 def minimumPassesOfMatrix(matrix):
-    # Seems optimal # O(RC) T S(worst)
+    # Optimal # O(RC) TS, but theirs is still better, but I had the right idea
     if not (len(matrix) and len(matrix[0])):
         return 0
     r, c, count, temp_negs = len(matrix), len(matrix[0]), 0, {}
