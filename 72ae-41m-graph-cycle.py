@@ -1,4 +1,4 @@
-# Their solution is still slightly better.
+# Their solutions are still slightly better, even if same time complexity. Gotta use that color system
 def cycleInGraph(edges):
     # Optimal, I'm sure, atleast timewise. Don't think I can do it iteratively
     n = len(edges)
