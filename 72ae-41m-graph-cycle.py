@@ -1,3 +1,4 @@
+# Their solution is still slightly better.
 def cycleInGraph(edges):
     # Optimal, I'm sure, atleast timewise. Don't think I can do it iteratively
     n = len(edges)
