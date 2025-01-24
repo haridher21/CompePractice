@@ -35,7 +35,6 @@ def is_cycle_odd(stack, vertice, prev):
     return True if count % 2 else False
     
 
-    
 # I incorrectly read the question, but say the next line was the case, then the solution below works
 # Since number of edges equal number of vertices, this means
 # only a single cycle will be present. If its even, its 2-colorable, else no.
