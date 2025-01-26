@@ -12,3 +12,4 @@ def et(tree):
         return int(et(tree.left) / et(tree.right))
     elif tree.value == -4:
         return et(tree.left) * et(tree.right)
+
