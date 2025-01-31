@@ -10,3 +10,4 @@ def kadanesAlgorithm(array): # O(N) T O(1) S
             runningSum += array[i]
         maxv = max(maxv, runningSum)
     return maxv
+    
