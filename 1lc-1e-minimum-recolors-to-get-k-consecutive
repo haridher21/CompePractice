@@ -1,0 +1,24 @@
+class Solution:
+    def minimumRecolors(self, blocks: str, k: int) -> int:
+        n = len(blocks)
+        b = 0
+        for i in range(k):
+            if blocks[i] == "B":
+                b += 1
+        start_index = 0
+        max_b = b
+        if max_b >= k:
+            return 0
+        for i in range(k, n):
+            if blocks[i] == "B":
+                b += 1
+            if blocks[i - k] == "B":
+                b -= 1
+            if b > max_b:
+                max_b = b
+                if max_b >= k:
+                    return 0
+        if max_b >= k:
+            return 0
+        else:
+            return k - max_b
