@@ -1,4 +1,4 @@
-def removeDuplicatesFromLinkedList(linkedList):
+def removeDuplicatesFromSortedLinkedList(linkedList):
     cur = linkedList
     while cur.next:
         next = cur.next
