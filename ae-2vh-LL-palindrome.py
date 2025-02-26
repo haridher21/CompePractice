@@ -1,4 +1,5 @@
 def linkedListPalindrome(head): # O(N) T O(1) S
+    # A good way to get to the halfway point of the LL and learn the length, is to use 2 pointers. Didn't do here, but keep in mind
     count, cur = 0, head
     # Get count of nodes
     while cur: # O(N)
