@@ -1,6 +1,8 @@
 def rearrangeLinkedList(head, k):
     # I've done some manipulation, and couldn't quite figure out the moving the matching nodes
     # But if we're allowed to just create those ones, I've got it.
+
+    # But the idea is on the right
     
     # Let's identify the node with the value k first if present
     # We'll actually remove all of them, but keep the count of them and add back later
